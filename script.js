@@ -41,7 +41,7 @@ let choices_object = {
 }
 
 function checker(input){
-    var choices = ["rock", "paper", "scissor"];
+    var choices = ["rock", "paper", "scissor","lizard","spoke"];
     var num = Math.floor(Math.random()*5);
 
     document.getElementById("comp_choice").innerHTML = 
