@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  color: chocolate;
+  color:whitesmoke;
+  color:tomato;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  background-color:tomato;
+  background-image: linear-gradient(
+    3deg , whitesmoke 64% , pink
+  );
+  color:tomato ;
+}
+.container {
+  border: 2px solid tomato;
+  width: 45%;
+  min-width: 40rem;
+  background-color:whitesmoke;
+  padding: 4rem 3rem;
+  position:relative;
+  margin: 5% 27%;
+  border-radius: 10px;
+  box-shadow: 0 1rem 2rem rgb(22, 22, 0,);
+}
+
+header {
+  font-weight: 700;
+  font-size: larger;
+  background-color:tomato;
+  color: beige;
+  min-height: 2rem;
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 5rem;
+}
+
+header .title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+
+.scores p {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  font-weight: 100;
+  justify-content:flex-start;
+}
+
+.weapons {
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+}
+
+.weapons button {
+  background-color:tomato;
+  color:rgb(247, 243, 242);
+  border: none;
+  font-size: 4rem;
+  height: 8rem;
+  width: 8rem;
+  justify-content:space-between;
+
+  border-radius: 50%;
+  border-color:  black;
+  outline: none;
+  cursor: pointer;
+}
+
+.details {
+  margin-top: 30px;
+  text-align: center;
+}
+.scores,
+.details {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+#result{
+padding: 20px 40px;
+margin: 20px;
+}
+span {
+  font-weight: 600;
+}

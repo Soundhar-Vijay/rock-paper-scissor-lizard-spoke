@@ -1,1 +1,2 @@
-# rock-paper-scissor-lizard-spoke
+# rps
+rps
